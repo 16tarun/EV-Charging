@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="assests/icons8-natural-food-48.png" type="image/x-icon">
+        <link rel="shortcut icon" href="assests/icons8-natural-food-48.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+        <title>Greenify</title>
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <div class="nav-content">
+                    <div class="logo">
+                        <h1>Greenify</h1>
+                        <img src="assests/icons8-natural-food-48.png" alt="" />
+                    </div>
+                    <div class="list">
+                        <li>
+                            <ul>
+                               <a href="#">Home</a>
+                            </ul>
+                            <ul>
+                                <a href="#">About Us</a>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
+            </nav>
+            <div class="container">
+                <div class="content">
+                    <div class="title">
+                        <h1>Experience Green</h1>
+                        <h1>Fast and Reliable</h1>
+                        <h1>Environment Friendly.</h1>
+                        <div class="box">
+                            <button class="signup" onclick="visible()">Get Started</button>
+                            <p>
+                                Already a User? <button class="login" onclick="visible1()">Sign In</button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <img src="assests/pngwing.com.png" alt="">
+                    </div>
+                </div>
+                <div class="signup-form">
+                    <div class="form-content">
+                        <form action="/signup" class="form" method="POST">
+                            <div class="iconc">
+                                <button onclick="visible()" type="button"><img src="assests/icons8-close.svg" alt=""></button>
+                            </div>
+                            <div class="flogo">
+                                <h1>Greenify</h1>
+                                <h1>Sign Up</h1>
+                            </div>
+                            <h1>Name</h1>
+                            <input type="text" name="name" />
+                            <h1>Email</h1>
+                            <input type="email" name="email"/>
+                            <h1>Mobile No</h1>
+                            <input type="tel" maxlength="10" name="mobile" />
+                            <h1>Password</h1>
+                            <input type="password" name="password" id="password" />
+                            <button type="submit" name="submit" class="submit" >Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="login-form">
+                    <div class="form-content">
+                        <form action="/login" class="form" method="POST">
+                            <div class="iconc">
+                            <button onclick="visible1()" type="button"><img src="assests/icons8-close.svg" alt=""></button>
+                            </div>
+                            <div class="flogo">
+                                <h1>Greenify</h1>
+                                <h1>Sign In</h1>
+                            </div>
+                            <h1>Email</h1>
+                            <input type="email" name="logemail" id="logemail"/>
+                            <h1>Password</h1>
+                            <input type="password" name="logpassword" id="logpassword" />
+                            <button type="submit" name="submit" class="submit" >Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
+<!-- fixing the trash comment -->
